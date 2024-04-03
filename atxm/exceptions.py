@@ -19,9 +19,6 @@ class Fault(Enum):
     # Something went wrong
     ERROR = "error"
 
-    # ...
-    INSUFFICIENT_FUNDS = "insufficient_funds"
-
 
 class InsufficientFunds(Exception):
     """raised when a transaction exceeds the spending cap"""
